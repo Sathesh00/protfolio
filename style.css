@@ -1,0 +1,430 @@
+body {
+    background-color:#f0f4f7;
+}
+
+header {
+    
+    color: #d5e2d7; /* Text color for the links */
+    text-align: center;
+    padding: 10px 0; /* Add some padding for spacing */
+}
+
+nav ul {
+    list-style-type: none; /* Remove the list bullet points */
+    margin: 0;
+    padding: 0;
+    
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+#devnav {
+    float: left; /* Float the "Developer" link to the left */
+    margin-left: 82px; /* Add spacing from the left */
+    margin-right: 20px; /* Add spacing been "Developer" and other menu items */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+
+nav li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 50px;
+    font-family: 'Poppins', sans-serif; /* Add some spacing between menu items */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: black;
+    font-weight: bold;
+    
+}
+
+/* 
+/* #left-content {
+    float: left; /* Float the container to the left */
+    /* margin-left: 66px;
+    margin-bottom: 500px;
+    padding: 100px; 
+    background-color: #1b1f24;
+} */ 
+
+#left-content {
+    
+    float: left;
+    margin-left: 34px;
+    margin-top: 37px;
+    padding: 118px;
+    background-color: #f0f4f7;
+    padding-bottom: 0px;
+    /* padding-left: 0px; */
+}
+
+
+
+
+
+
+
+#hii {
+    color: black(192, 17, 17);
+    font-size: 20px;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+#name {
+    color: #2205da;
+    font-size: 50px;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+#im {
+    color: black;
+    font-size: 50px;
+}
+
+#about-me{
+    color: black;
+    font-size: 16px;
+}
+
+
+
+
+#social-media {
+    list-style-type: none;
+    /* margin: 50px; */
+    padding: 1px;
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: left;
+    margin-left:  20px;
+}
+
+.social-item {
+    text-align: center; /* Center the content horizontally */
+}
+
+.social-item img {
+    max-width: 40px; /* Limit the width of the logos */
+    height: auto; /* Maintain the aspect ratio of the logos */
+    padding-right: 50px;
+}
+
+.social-item p {
+    font-size: 16px; /* Adjust the font size as needed */
+}
+#lin1{
+padding-left: 10px;
+margin-left: 10px;
+
+}
+
+
+#social1{
+    color: rgb(6, 5, 5);
+    /* padding-left: 2px;    */
+    margin-left: -44px;
+    /* margin-bottom: 5px; */
+    padding-top: -10px;
+}
+#social2{
+    color: black;
+    /* padding-left: 2px;    */
+    margin-left: -44px;
+}
+#social3{
+    color: black;
+    /* padding-left: 2px;    */
+    margin-left: -44px;
+}
+
+#social-media li:hover a {
+   
+    opacity: 0.7; /* Reduce opacity for a fade effect */
+}
+
+#social-media li:hover p {
+    /* Styles to apply when hovering over the text */
+    text-decoration:underline; /* Remove underline */
+}
+
+
+.resume {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+/* .image2 img{
+   
+    border-radius: 26px;
+    margin-top: 63px;
+    margin-left: 52px;
+    height: 325px;
+    width: 293px;
+    border-color: blue;
+} */
+
+.image2 img {
+    border-radius: 50%; /* Make it a circle by setting border-radius to 50% */
+    margin-top: 80px;
+    margin-left: 52px;
+    height: 300px;
+    width: 300px; /* Make the width and height the same for a perfect circle */
+    border: 0px solid #164e6b; /* Add a blue border */
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5); /* Add a blue color effect with shadow */
+}
+
+
+
+
+/* .circle img{
+    border-radius: 128px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+} */
+/* 
+.don{
+    margin-top: 0px;
+    margin-left:0px;
+    padding-left: 0px;
+    
+  
+} */
+
+.circle  img{
+
+    border-radius: 305px;
+    border-width: 51px;
+    height: 313px;
+    width: 306px;
+    margin-top: 109px;
+    margin-left: -632px;
+    margin-bottom: 0px;
+    border: 10px solid #a0a5a2;
+    box-shadow: -1px 5px 18px rgb(10 1 230 / 29%);
+}
+
+/* 
+.section2{
+
+    /* margin-top: 100px; */
+    /* margin-bottom: none; */
+    /* border-bottom: -700px; */
+
+/* }  */
+
+
+  /* .about__section{
+    color: rgb(189, 14, 14);
+    margin-bottom: 106px;
+    margin-top: -321px;
+  }
+  .about__section h1{
+    margin-left: 486px;
+    margin-top: 7px;
+  }
+
+  .about__section ul{
+    margin-left: 550px;
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+
+/*  */
+
+
+
+ .section2{
+
+    margin-bottom: 185px;
+}
+
+
+.circle img {
+    margin-top: 129px;
+    margin-right: -1px;
+    margin-left: -625px;
+    border: 0px solid #a0a5a2;
+    box-shadow: -1px 5px 18px rgb(10 1 230 / 29%);
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about__section h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    /* font-weight:bolder; */
+    font-size: 28px;
+    margin-top: 17px;
+    margin-left: -51px;
+    margin-bottom: 0px;
+}
+.about__section #engs {
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    /* font-weight:bol; */
+    font-size: 28px;
+    margin-top: 0px;
+    margin-left: -62px;
+}
+
+
+
+.about__section{
+    margin-left: 607px;
+    margin-top: -341px;
+}
+
+.about__section #eng{
+    color: #2205da;
+}
+.about__section #cloud_color{
+    color: #2205da;
+}
+
+.about__section ul{
+    /* font-family: 'Open Sans', sans-serif; */
+    font-weight: 20px;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+        list-style-type: none;
+    margin-left: -89px;
+    margin-top: -9px;
+        
+}
+.about__section ul h5{
+
+    color: black;
+    display: inline;
+    /* font-size:larger; */
+}
+
+
+
+
+
+
+
+
+
+
+/* Style for the Services section */
+.services {
+    text-align: center;
+    /* padding: 150px 0; */
+    background-color: #f0f4f7;
+    padding-bottom: 300px;
+    padding-top: 10px;
+}
+
+.services h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+/* Style for the service boxes */
+.service-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.box {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border: 5px solid #03a9f4;
+    border-radius: 20px; /* Adds rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.box:hover {
+    transform: translateY(-5px); /* Adds a slight upward lift on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 16px;
+    color: #777;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
